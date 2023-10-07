@@ -9,9 +9,7 @@ function NavigationBar() {
     <header>
       <nav>
         <Logo />
-        <HamburgerMenu>
-          
-        </HamburgerMenu>
+        <HamburgerMenu></HamburgerMenu>
       </nav>
     </header>
   );

@@ -53,23 +53,31 @@
 }
 
 .sliderWrap .btnClose {
-  height: 30px;
-  top: 80px;
-  right: 150px;
+  height: 3%;
+  top: 7.5%;
+  right: 7.5%;
+}
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .sliderWrap .btnClose {
+    height: 3%; /* Adjust the button size for smaller screens */
+    top: 22%; /* Adjust the button position for smaller screens */
+    right: 5%; /* Adjust the button position for smaller screens */
+  }
 }
 
 .sliderWrap .btnPrev {
-  height: 30px;
+  height: 3%;
   top: 50%;
   transform: translateY(50%);
-  left: 150px;
+  left: 7.5%;
 }
 
 .sliderWrap .btnNext {
-  height: 30px;
+  height: 3%;
   top: 50%;
   transform: translateY(50%);
-  right: 150px;
+  right: 7.5%;
 }
 
 .fullScreenImage {

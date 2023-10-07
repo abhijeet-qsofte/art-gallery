@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import MenuItem from './MenuItem';
+import { Link } from 'react-router-dom';
 
 const MenuBtn = styled.div`
   cursor: pointer;
@@ -63,11 +64,9 @@ function HamburgerMenu() {
           Render your menu items here
           Example: <li><a href="#">Home</a></li>
         */}
-        <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/pages/Artworks">Artworks</MenuItem>
-        <MenuItem to="/artists">Artists</MenuItem>
-        <MenuItem to="/exhibitions">Exhibitions</MenuItem>
-        <MenuItem to="/contact">Contact</MenuItem>
+        <MenuItem to="/"> Home</MenuItem>
+        <MenuItem to="./artwork">Artworks</MenuItem>
+        <MenuItem to="./artwork">Exhibitions</MenuItem>
       </MenuItems>
     </>
   );
