@@ -74,3 +74,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Step 1 : Get a Linux Server to host , for this one I purchase $2 USD from IONOS
 Step 2 : Create a docker file so that you can create a docker build (Pre requisite have docker insalled)
 Step 3 :
+
+# Inrastructure Details
+
+The application has been developed using NodeJS. The frontend part of the app was built using React.
+
+1. Get a server - for this app at the moment.
